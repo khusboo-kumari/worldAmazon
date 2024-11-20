@@ -37,8 +37,8 @@ const Cart = () => {
         <div className="cart-product-total w-[350px] p-5 pb-6 flex flex-col gap-5 bg-white">
           <div className="is-free-delivery flex  flex-col gap-4">
           <div className="w-full flex gap-3">
-  <div className="w-full flex-1 border-2 border-[#067D62] rounded-full">
-    <div className={`h-5 rounded-full transition-all duration-300 bg-[#067D62]`}
+  <div className="w-full flex-1 border-2 border-[#20201e] rounded-full">
+    <div className={`h-5 rounded-full transition-all duration-300 bg-[#e5bd3b]`}
     style={{ width: `${widthPercentage}%` }}
     />
   </div>
@@ -54,7 +54,7 @@ const Cart = () => {
   <div className="flex gap-4">
     <input
       type="checkbox"
-      className="checkbox rounded-full size-4 bg-[#067D62]"
+      className="checkbox rounded-full size-4 bg-[#d5b034]"
       checked
     />
     <div className="flex flex-col gap-1">
@@ -78,7 +78,7 @@ const Cart = () => {
             <div className="flex gap-2">
               <input
                 type="checkbox"
-                className="checkbox rounded-full size-4 bg-[#067D62]"
+                className="checkbox rounded-full size-4 bg-[#d8ac3b]"
               />
               <p className="text-xs">This order contains a gift</p>
             </div>
@@ -117,10 +117,10 @@ const Cart = () => {
         <div className="cart-product-total w-[350px] p-5 pb-6 flex flex-col gap-5 bg-white rounded-lg">
           <div className="flex gap-2">
             <div className="flex flex-start gap-2">
-              <div className="left">
+              {/* <div className="left">
                 <img src={prime} alt="prime" className="w-32 h-32" />
-              </div>
-              <div className="right flex flex-col gap-2">
+              </div> */}
+              {/* <div className="right flex flex-col gap-2">
                 <p className="text-sm font-semibold">
                   Free fast delivery. No order minimum. Exclusive savings. Start
                   your 30-day free trial of Prime.
@@ -128,7 +128,7 @@ const Cart = () => {
                 <button className="border-2 border-[#888C8C] px-4 py-1 rounded-full text-sm text-[#373939] w-32">
                   Join Prime
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

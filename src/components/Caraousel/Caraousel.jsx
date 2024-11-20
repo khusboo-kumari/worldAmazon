@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
 
 const images = [
-  "https://amazonclonewebapp.netlify.app/assets/bannerImgOne-cff4a2d0.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/BAU/Hero/Oct/V1/Modern-wall-clocks-PC-3000x1200._CB542833767_.jpg",
   "https://amazonclonewebapp.netlify.app/assets/bannerImgTwo-0758635c.jpg",
-  "https://images-eu.ssl-images-amazon.com/images/G/31/img23/Beauty/GW/18._CB543076903_.png",
-  "https://images-eu.ssl-images-amazon.com/images/G/31/img23/Softlines_JWL_SH_GW_Assets/2024/BAU_BTF/Nov/Unrec/Shoes/1/30003._CB542120021_.jpg",
-  "https://images-eu.ssl-images-amazon.com/images/G/31/OHL/24/BAU/feb/PC_hero_1_2x_1._CB582889946_.jpg",
-  "https://images-eu.ssl-images-amazon.com/images/G/31/img24/Media/BAU/PC_Hero_2x-toys_1._CB582765723_.jpg"
+  "https://images-eu.ssl-images-amazon.com/images/G/31/img23/Consumables/X-GL/Feb5/PC_Hero_1_3000._CB582457311_.jpg",
+  // "https://images-eu.ssl-images-amazon.com/images/G/31/img23/Beauty/GW/18._CB543076903_.png",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/img24/Beauty/GW/Jupiter/KSD/PEA/Updated/Phase3/Phase3b/929711._CB542298789_.png",
+  // "https://images-eu.ssl-images-amazon.com/images/G/31/img23/Softlines_JWL_SH_GW_Assets/2024/BAU_BTF/Nov/Unrec/Shoes/1/30003._CB542120021_.jpg",
+  // "https://images-eu.ssl-images-amazon.com/images/G/31/OHL/24/BAU/feb/PC_hero_1_2x_1._CB582889946_.jpg",
+  // "https://images-eu.ssl-images-amazon.com/images/G/31/img24/Media/BAU/PC_Hero_2x-toys_1._CB582765723_.jpg"
+   "https://images-eu.ssl-images-amazon.com/images/G/31/OHL/24/BAU/feb/PC_hero_1_2x_1._CB582889946_.jpg",
+   "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Toys/GW/GW-Hero-PC_BBAug23_Soft-toys_with-Apay_Lifestyle_2x._CB597740150_.jpg",
 ];
 
 const Caraousel = () => {

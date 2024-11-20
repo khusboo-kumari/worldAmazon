@@ -18,6 +18,11 @@ export default function CategoryFilters({openSidebar}) {
 }
 
 const item = [
+ 
+  "Browsing History",
+  "Customer Service",
+  "Home Improvement",
+  "Dytto's Amazon.in",
   "Fresh",
   "MX Player",
   "Sell",
@@ -27,10 +32,6 @@ const item = [
   "AmazonBasics",
   "Gift Ideas",
   "Today's Deals",
-  "Browsing History",
-  "Customer Service",
-  "Home Improvement",
-  "Dytto's Amazon.in",
   "Health, Household & Personal Care",
   "Kindle eBooks",
   "Mobiles",

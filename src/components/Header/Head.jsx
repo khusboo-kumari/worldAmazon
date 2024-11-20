@@ -29,12 +29,18 @@ const Head = () => {
         <div className="order-location-container">
           {/* <img className="location-icon" src="" alt="location-icon" /> */}
           <FontAwesomeIcon icon={faLocationDot} className="location-icon" />
-          <div className="location-text-container">
+          {/* <div className="location-text-container">
             <span className="current-location">
               Deliver to
             </span>
             <span className="update-location">India</span>
-          </div>
+          </div> */}
+          <div className="location-text-container">
+                    <span className="current-location">
+                    Deliver to Imphal 
+                    </span>
+                    {/* <span className="update-location">Update Location</span> */}
+                 </div>
         </div>
       </div>
 

@@ -91,7 +91,7 @@
 
 .product-btn {
   background-color: #FFD814;
-  padding: clamp(8px, 1.5vw, 10px) clamp(12px, 2vw, 20px);
+  padding: clamp(7px, 1.5vw, 10px) clamp(11px, 2vw, 20px);
   border-radius: 20px;
   border: none;
   cursor: pointer;

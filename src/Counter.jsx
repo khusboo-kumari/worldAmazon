@@ -15,8 +15,8 @@ const Counter = () => {
     <div>
         <h3>Count value is {count}</h3>
         <button onClick={()=>setCount(count+1)}>+</button>
-
-        <h4>hihjisisis lorem900</h4>
+        <button onClick={()=>setCount(count-1)}>-</button>
+        <h4>Counter Component</h4>
      </div>
   )
 }

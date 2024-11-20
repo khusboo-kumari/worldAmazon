@@ -6,7 +6,7 @@ const Search = () => {
   return (
     <div>
       <div className='search-container w-[240px] bg-white'>
-        side content
+        Side content
       </div>
 
       <div>
