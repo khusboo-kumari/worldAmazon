@@ -1,15 +1,3 @@
-/* .caraousel-container{
-    width: 100%;
-    height: 100vh;
-
-}
-
-.bg-img{
-    width: 100%;
-    object-fit: contain;
-} */
-
-
 .caraousel-container {
     width: 100%;
     height: 100vh;
@@ -17,22 +5,26 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    position: relative;
 }
 
 .bg-img {
     width: 100%;
-    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
-    height: 90vh; /* Ensures the height adapts to the container */
+    height: 100%;
+    object-fit: cover; /* Ensures the image scales to cover the entire container */
 }
 
 @media (max-width: 768px) {
     .bg-img {
-        height: 70vh; /* Adjust height for tablets or medium screens */
+        object-fit: contain; /* Display the full image without cropping on tablets */
+        height: auto; /* Allow height to adjust dynamically */
     }
 }
 
 @media (max-width: 480px) {
     .bg-img {
-        height: 60vh; /* Adjust height for smaller screens */
+        object-fit: contain; /* Ensure no cropping on smaller screens */
+        width: 100%;
+        height: auto;
     }
 }
