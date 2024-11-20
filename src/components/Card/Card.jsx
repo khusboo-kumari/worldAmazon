@@ -1,8 +1,6 @@
 import React from "react";
 import "./card.css";
-import HomeStorage from "./../../assets/HomeStorage.jpg";
-// import HomeDecor from "./../../assets/HomeDecor.jpg";
-import CleaningTool from "./../../assets/CleaningTool.jpg";
+
 
 
 const Card = () => {
